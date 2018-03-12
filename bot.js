@@ -128,4 +128,4 @@ client.on("message", msg => {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-client.login(client.config.TOKEN);
+client.login(process.env.BOT_TOKEN);
