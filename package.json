@@ -1,0 +1,21 @@
+{
+  "name": "discordbotnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Viktor Svensson",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "dotenv": "^5.0.0",
+    "fortnitetracker-7days-stats": "^2.1.1",
+    "node-opus": "^0.2.7",
+    "request": "^2.83.0",
+    "youtube-finder": "^1.0.1",
+    "ytdl-core": "^0.20.2"
+  }
+}
